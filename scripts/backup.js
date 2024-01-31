@@ -4,4 +4,3 @@ require("./collect");
 
 child_process.execSync("git add save");
 child_process.execSync(`git commit -m "Backup save @ ${new Date().toISOString()}"`);
-child_process.execSync("git push");

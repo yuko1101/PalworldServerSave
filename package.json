@@ -5,7 +5,9 @@
   "main": "backup.js",
   "devDependencies": {},
   "scripts": {
-    "collect": "node collect.js"
+    "collect": "node collect.js",
+    "backup": "node backup.js",
+    "push": "npm run backup && git push"
   },
   "repository": {
     "type": "git",
