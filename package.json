@@ -1,0 +1,24 @@
+{
+  "name": "palworldserversave",
+  "description": "A tool to save/backup your Palworld save (Dedicated Server).",
+  "version": "1.0.0",
+  "main": "backup.js",
+  "devDependencies": {},
+  "scripts": {
+    "collect": "node collect.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuko1101/PalworldServerSave.git"
+  },
+  "keywords": [],
+  "author": "yuko1101 (https://github.com/yuko1101)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuko1101/PalworldServerSave/issues"
+  },
+  "homepage": "https://github.com/yuko1101/PalworldServerSave#readme",
+  "dependencies": {
+    "dotenv": "^16.4.1"
+  }
+}
