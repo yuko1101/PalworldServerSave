@@ -2,12 +2,13 @@
   "name": "palworldserversave",
   "description": "A tool to save/backup your Palworld save (Dedicated Server).",
   "version": "1.0.0",
-  "main": "backup.js",
+  "main": "scripts/backup.js",
   "devDependencies": {},
   "scripts": {
-    "collect": "node collect.js",
-    "backup": "node backup.js",
-    "push": "npm run backup && git push"
+    "collect": "node scripts/collect.js",
+    "backup": "node scripts/backup.js",
+    "push": "npm run backup && git push",
+    "clean": "node scripts/clean.js"
   },
   "repository": {
     "type": "git",
